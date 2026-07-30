@@ -1,0 +1,13 @@
+[package]
+name = "rust-wasm-renderer"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+rust-engine = { path = "../rust-engine" }
+wasm-bindgen = "0.2"
+
